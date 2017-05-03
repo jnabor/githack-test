@@ -1,5 +1,5 @@
-set arg1=%1
-set arg2=%2
+set arg1=%2
+set arg2=%1
 echo "Executing commit hack script"
 echo "creating a file"
 echo "Hello World on %arg1%" > %arg1%.log
